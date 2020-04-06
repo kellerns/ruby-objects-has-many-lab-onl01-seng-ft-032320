@@ -19,6 +19,6 @@ class Artist
   end
   
   def self.song_count
-    song_array = songs.count
+    songs().count
   end
 end
